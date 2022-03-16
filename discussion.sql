@@ -11,4 +11,9 @@ INSERT INTO albums(album_title, date_released, artist_id) VALUES ("Psy 6", "2012
 INSERT INTO albums(album_title, date_released, artist_id) VALUES ("Trip", "1996-1-1", 1);
 
 -- insert values in songs table
-INSERT INTO songs(song_name, length, genre, album_id) VALUES ("Gangnam Style", 253, "K-POP", 4);
+INSERT INTO songs(song_name, length, genre, album_id) VALUES ("Gangnam Style", 253, "K-POP", 1);
+INSERT INTO songs(song_name, length, genre, album_id) VALUES ("Kundiman", 234, "OPM", 2);
+INSERT INTO songs(song_name, length, genre, album_id) VALUES ("Kisapmata", 279, "OPM", 2);
+
+-- selecting records 
+-- display the title and genre of all the songs
