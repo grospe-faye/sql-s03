@@ -25,3 +25,11 @@ SELECT * FROM songs;
 -- display the title of all OPM songs
 SELECT song_name FROM songs WHERE genre = "OPM";
 
+-- we can use AND and OR keyword for multiple expressions in the WHERE clause.
+
+-- Display the title and length of the OPM songs that are more than 2 minutes
+SELECT song_name, length FROM songs WHERE length > 200 AND genre = "OPM";
+
+-- update the length of Kundiman to 240 seconds
+
+
