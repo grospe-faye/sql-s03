@@ -17,3 +17,11 @@ INSERT INTO songs(song_name, length, genre, album_id) VALUES ("Kisapmata", 279, 
 
 -- selecting records 
 -- display the title and genre of all the songs
+SELECT song_name, genre FROM songs;
+
+-- display all columns in the songs table
+SELECT * FROM songs;
+
+-- display the title of all OPM songs
+SELECT song_name FROM songs WHERE genre = "OPM";
+
