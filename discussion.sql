@@ -31,5 +31,5 @@ SELECT song_name FROM songs WHERE genre = "OPM";
 SELECT song_name, length FROM songs WHERE length > 200 AND genre = "OPM";
 
 -- update the length of Kundiman to 240 seconds
-
+UPDATE songs SET length = 240 WHERE song_name = "Kundiman";
 
