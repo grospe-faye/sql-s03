@@ -36,3 +36,10 @@ UPDATE songs SET length = 240 WHERE song_name = "Kundiman";
 -- update the length of Gangnam Style to 200 seconds
 UPDATE songs SET length = 200 WHERE song_name = "Gangnam Style";
 
+
+-- deleting records
+-- delete all OPM songs that are equal or more than 2 minutes
+DELETE FROM songs WHERE genre = "OPM" AND length >= 200;
+
+-- Delete all rows in songs table by removing the WHERE keyword
+DELETE FROM songs;
